@@ -1,3 +1,10 @@
+local buttons = {
+    {name = "Build A Boat", url = "https://raw.githubusercontent.com/catblox1346/StensUIReMake/main/Script/StensUIRemakev1.0.0"},
+    {name = "Doors", url = "https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"},
+    {name = "Fly Gui", url = "https://rawscripts.net/raw/Universal-Script-FLY-GUI-V3-18636"},
+    {name = "Mobile Keyboard", url = "https://rawscripts.net/raw/Universal-Script-Mobile-keyboard-6975"}
+}
+
 for i, buttonInfo in ipairs(buttons) do
     local button = Instance.new("TextButton", frame)
     button.Size = UDim2.new(0, 80, 0, 50)
